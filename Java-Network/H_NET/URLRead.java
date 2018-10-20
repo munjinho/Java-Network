@@ -13,7 +13,7 @@ public class URLRead {
 		String inputline = null;
 		try {
 			//URL 객체 생성! 
-			URL url = new URL("http://www.naver.com");
+			URL url = new URL("https://sites.google.com/site/mylognaegilog/");
 			//url으로 부터 입력 스트림 생성! 
 			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
 			//경로
